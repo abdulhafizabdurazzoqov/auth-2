@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 60px;
+      }
+      form {
+        width: 100%;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .title {
+        text-align: center;
+      }
+      .title h1 {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #1f41bb;
+        margin-bottom: 26px;
+      }
+      .title p {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #000000;
+        margin-bottom: 60px;
+      }
+      .input-group {
+        margin-bottom: 29px;
+      }
+      .input-group input::placeholder {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #626262;
+      }
+      .input-group input {
+        border: none;
+        width: 100%;
+        height: 64px;
+        outline: none;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: transparent;
+      }
+      .input-group input.contained {
+        border: 1px solid #1f41bb;
+      }
+      .forgotPassword {
+        text-align: right;
+        margin-bottom: 30px;
+      }
+      .forgotPassword a {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        text-decoration: none;
+        color: #1f41bb;
+      }
+      .submit {
+        margin-bottom: 30px;
+      }
+      .submit button {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #1f41bb;
+        margin-bottom: 45px;
+      }
+      .goToSingUp {
+        text-align: center;
+        margin-bottom: 45px;
+      }
+      .goToSingUp a {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: center;
+        color: #494949;
+        text-decoration: none;
+      }
+      .socialMedia  {
+        text-align: center;
+      }
+      .socialMedia p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        color: #1f41bb;
+        margin-bottom: 20px;
+      }
+      .socialMedia .btn-block button {
+        border: none;
+        width: 60px;
+        height: 44px;
+        border-radius: 10px;
+        background-color: #ececec;
+        text-align: center;
+        margin:  0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <div class="title">
+        <h1>Login here</h1>
+        <p>
+          Welcome back you’ve <br />
+          been missed!
+        </p>
+      </div>
+      <div class="input-group">
+        <input class="contained" type="email" placeholder="Email" />
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" />
+      </div>
+      <div class="forgotPassword">
+        <a href="#">Forgot your password?</a>
+      </div>
+      <div class="submit">
+        <button>Sign in</button>
+      </div>
+      <div class="goToSingUp">
+        <a href="Sing up.html">Create new account</a>
+      </div>
+      <div class="socialMedia">
+        <p>Or continue with</p>
+        <div class="btn-block">
+          <button><img src="google.png" /></button>
+          <button><img src="facebook.png" /></button>
+          <button><img src="apple.png" /></button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
